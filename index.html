@@ -5,23 +5,26 @@
 
         <link rel="stylesheet" href="bootstrapcss/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="css/main.css" type="text/css">
+
+        <script src="bootstrapjs/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
     </head>
     <body> 
         <div class="container">
-            <h1> Today's Lineup for the Atlanta Braves </h1>
-            <table id="lineup">
+            <h1 id="lineup-header"> Today's Lineup for the Atlanta Braves </h1>
+            <table id="lineup" class="batting-order">
                 <tr id="header-row">
                     <th class="table-headers" id="number">#</th>
                     <th class="table-headers" id="picture">Pic.</th>
                     <th class="table-headers" id="name">Name</th>
-                    <th class="table-headers" id="position">Position</th>
-                    <th class="table-headers" id="average">Avg.</th>
+                    <th class="table-headers" id="position">Pos.</th>
+                    <th class="table-headers" id="average">BA</th>
                     <th class="table-headers" id="xwoba">xwOBA</th>
                     <th class="table-headers" id="obp">OBP</th>
                     <th class="table-headers" id="slug">SLG</th>
                     <th class="table-headers" id="ops">OPS</th>
                 </tr>
-                <tr class="batter-1">
+                <tr id="batter-1" class="batters">
                     <td class="numbers"></td>
                     <td class="pictures"></td>
                     <td class="names"></td>
@@ -32,7 +35,7 @@
                     <td class="slugs"></td>
                     <td class="opss"></td>
                 </tr>
-                <tr class="batter-2">
+                <tr id="batter-2" class="batters">
                     <td class="numbers"></td>
                     <td class="pictures"></td>
                     <td class="names"></td>
@@ -43,7 +46,7 @@
                     <td class="slugs"></td>
                     <td class="opss"></td>
                 </tr>
-                <tr class="batter-3">
+                <tr id="batter-3" class="batters">
                     <td class="numbers"></td>
                     <td class="pictures"></td>
                     <td class="names"></td>
@@ -54,7 +57,7 @@
                     <td class="slugs"></td>
                     <td class="opss"></td>
                 </tr>
-                <tr class="batter-4">
+                <tr id="batter-4" class="batters">
                     <td class="numbers"></td>
                     <td class="pictures"></td>
                     <td class="names"></td>
@@ -65,7 +68,7 @@
                     <td class="slugs"></td>
                     <td class="opss"></td>
                 </tr>
-                <tr class="batter-5">
+                <tr id="batter-5" class="batters">
                     <td class="numbers"></td>
                     <td class="pictures"></td>
                     <td class="names"></td>
@@ -76,7 +79,7 @@
                     <td class="slugs"></td>
                     <td class="opss"></td>
                 </tr>
-                <tr class="batter-6">
+                <tr id="batter-6" class="batters">
                     <td class="numbers"></td>
                     <td class="pictures"></td>
                     <td class="names"></td>
@@ -87,7 +90,7 @@
                     <td class="slugs"></td>
                     <td class="opss"></td>
                 </tr>
-                <tr class="batter-7">
+                <tr id="batter-7" class="batters">
                     <td class="numbers"></td>
                     <td class="pictures"></td>
                     <td class="names"></td>
@@ -98,7 +101,7 @@
                     <td class="slugs"></td>
                     <td class="opss"></td>
                 </tr>
-                <tr class="batter-8">
+                <tr id="batter-8" class="batters">
                     <td class="numbers"></td>
                     <td class="pictures"></td>
                     <td class="names"></td>
@@ -109,7 +112,7 @@
                     <td class="slugs"></td>
                     <td class="opss"></td>
                 </tr>
-                <tr class="batter-9">
+                <tr id="batter-9" class="batters">
                     <td class="numbers"></td>
                     <td class="pictures"></td>
                     <td class="names"></td>

@@ -1,0 +1,71 @@
+.container {
+    text-align: center;
+
+    #lineup-header {
+        display: block;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    #lineup {
+        width: 90%;
+        margin: auto;
+
+        .table-headers {
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+        th {
+            border-bottom: 2px solid black;
+            border-right: 1px solid black;
+
+            &:last-child {
+                border-right: none !important;
+            }
+        }
+
+        #number {
+            width: 3%;
+        }
+
+        #picture {
+            width: 6%;
+        }
+
+        #name {
+            width: 20%;
+        }
+
+        #position {
+            width: 4%;
+        }
+
+        #average {
+            width: 6%;
+        }
+
+        #xwoba {
+            width: 8%;
+        }
+
+        #obp {
+            width: 6%;
+        }
+
+        #slug {
+            width: 6%;
+        }
+
+        #ops {
+            width: 6%;
+        }
+
+        .batters {
+            height: 3rem;
+        }
+    }
+}

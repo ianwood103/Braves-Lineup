@@ -1,3 +1,40 @@
-
+.container {
+  text-align: center; }
+  .container #lineup-header {
+    display: block;
+    margin-bottom: 3rem;
+    margin-top: 2rem; }
+  .container #lineup {
+    width: 90%;
+    margin: auto; }
+    .container #lineup .table-headers {
+      text-align: center; }
+    .container #lineup td {
+      border: 1px solid black; }
+    .container #lineup th {
+      border-bottom: 2px solid black;
+      border-right: 1px solid black; }
+      .container #lineup th:last-child {
+        border-right: none !important; }
+    .container #lineup #number {
+      width: 3%; }
+    .container #lineup #picture {
+      width: 6%; }
+    .container #lineup #name {
+      width: 20%; }
+    .container #lineup #position {
+      width: 4%; }
+    .container #lineup #average {
+      width: 6%; }
+    .container #lineup #xwoba {
+      width: 8%; }
+    .container #lineup #obp {
+      width: 6%; }
+    .container #lineup #slug {
+      width: 6%; }
+    .container #lineup #ops {
+      width: 6%; }
+    .container #lineup .batters {
+      height: 3rem; }
 
 /*# sourceMappingURL=main.css.map */
