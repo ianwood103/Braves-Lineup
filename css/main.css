@@ -27,7 +27,9 @@
     .container #lineup #average {
       width: 6%; }
     .container #lineup #homeruns {
-      width: 8%; }
+      width: 4%; }
+    .container #lineup #rbi {
+      width: 5%; }
     .container #lineup #obp {
       width: 6%; }
     .container #lineup #slug {
