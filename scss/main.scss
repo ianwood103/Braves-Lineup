@@ -10,6 +10,14 @@
     #lineup {
         width: 90%;
         margin: auto;
+        margin-bottom: 50px;
+
+        tr {
+            .batter-pictures {
+                width: 100%;
+                max-width: 100px;
+            }
+        }
 
         .table-headers {
             text-align: center;
@@ -17,6 +25,7 @@
 
         td {
             border: 1px solid black;
+            text-align: center;
         }
 
         th {
@@ -33,7 +42,7 @@
         }
 
         #picture {
-            width: 6%;
+            width: 3%;
         }
 
         #name {
