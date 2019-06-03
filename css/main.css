@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Fjalla+One&display=swap");
 .container {
   text-align: center; }
   .container #lineup-header {
@@ -42,6 +43,14 @@
     .container #lineup #ops {
       width: 6%; }
     .container #lineup .batters {
-      height: 3rem; }
+      height: 3rem;
+      font-size: 20px; }
+      .container #lineup .batters .names a {
+        color: black;
+        font-family: 'fjalla one', serif;
+        font-size: 22px; }
+        .container #lineup .batters .names a:hover {
+          text-decoration: none;
+          color: blue; }
 
 /*# sourceMappingURL=main.css.map */

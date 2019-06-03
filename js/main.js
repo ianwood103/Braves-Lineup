@@ -18,7 +18,7 @@ function fillTable() {
 function fillBatter(order) {
     base = '#batter-' + String(order);
     $(base + ' .numbers').html(lineup[order - 1]['order']);
-    $(base + ' .names').html(lineup[order - 1]['name']);
+    $(base + ' .names a').html(lineup[order - 1]['name']);
     $(base + ' .positions').html(lineup[order - 1]['position']);
     name = lineup[order - 1]['name'];
     for(var i = 9; i < lineup.length; i++) {
@@ -34,4 +34,5 @@ function fillBatter(order) {
     $(base + ' .slugs').html(lineup[player_index]['SLG']);
     $(base + ' .opss').html(lineup[player_index]['OPS']);
     $(base + ' .pictures img').attr('src', lineup[player_index]['picture']);
+    $(base + ' .names a[href]').attr('href', lineup[player_index]['URL']);
 }
